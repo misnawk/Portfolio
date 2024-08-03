@@ -26,7 +26,7 @@ jobs:
 
       #클라이언트 배포 최적화
       - name: Cache Node.js modules
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: ~/.npm # npm 패키지를 저장할 위치
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }} # 캐시 키
