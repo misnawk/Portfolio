@@ -1,8 +1,7 @@
-// pages/ProjectPage.tsx
 import React from "react";
 import styled from "styled-components";
 import { ProjectCard } from "../Organisms/Project/ProjectCard";
-import { FirstprojectData } from "../Data.ts/ProfileData";
+import { SecondprojectData } from "../Data.ts/ProfileData";
 
 const PageContainer = styled.div`
   background-color: #121212;
@@ -25,11 +24,11 @@ const PageTitle = styled.h1`
   text-align: center;
 `;
 
-export const FirstProjectPage = () => (
+export const SecondProjectPage = () => (
   <PageContainer>
     <ContentWrapper>
-      <PageTitle>{FirstprojectData.title}</PageTitle>
-      <ProjectCard {...FirstprojectData} />
+      <PageTitle>{SecondprojectData.title}</PageTitle>
+      <ProjectCard {...SecondprojectData} />
     </ContentWrapper>
   </PageContainer>
 );

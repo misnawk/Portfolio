@@ -5,6 +5,8 @@ import HomePage from "./page/HomePage";
 import styled, { createGlobalStyle } from "styled-components";
 import AboutMePage from "./page/AboutMePage";
 import { FirstProjectPage } from "./page/FirstProjectPage";
+import { SecondProjectPage } from "./page/SecondProjectPage";
+import { ThirdProjectsPage } from "./page/ThirdProjectsPage";
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -36,7 +38,7 @@ const ContentWrapper = styled.div`
   padding: 30px;
 `;
 
-const App: React.FC = () => {
+const App = () => {
   return (
     <Router>
       <GlobalStyle />
@@ -48,8 +50,18 @@ const App: React.FC = () => {
               <Routes>
                 <Route path="/" element={<HomePage />} />
                 <Route path="/About" element={<AboutMePage />} />
-                <Route path="/firstProjects" element={<FirstProjectPage />} />
-                {/* 다른 라우트들 */}
+                <Route
+                  path="/FirstProjectPage"
+                  element={<FirstProjectPage />}
+                />
+                <Route
+                  path="/SecondProjectPage"
+                  element={<SecondProjectPage />}
+                />
+                <Route
+                  path="/ThirdProjectsPage"
+                  element={<ThirdProjectsPage />}
+                />
               </Routes>
             </ContentWrapper>
           </RouteContainer>

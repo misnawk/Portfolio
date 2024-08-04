@@ -41,18 +41,18 @@ const Sidebar = () => {
     },
     {
       icon: faListCheck,
-      action: () => navigate("/firstProjects"),
-      isActive: location.pathname === "/firstProjects",
+      action: () => navigate("/FirstProjectPage"),
+      isActive: location.pathname === "/FirstProjectPage",
     },
     {
       icon: faListCheck,
-      action: () => navigate("/secondProjects"),
-      isActive: location.pathname === "/secondProjects",
+      action: () => navigate("/SecondProjectPage"),
+      isActive: location.pathname === "/SecondProjectPage",
     },
     {
       icon: faListCheck,
-      action: () => navigate("/thirdProjects"),
-      isActive: location.pathname === "/thirdProjects",
+      action: () => navigate("/ThirdProjectsPage"),
+      isActive: location.pathname === "/ThirdProjectsPage",
     },
 
     {
