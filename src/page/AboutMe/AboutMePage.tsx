@@ -1,7 +1,9 @@
+// pages/AboutMePage.tsx
 import React from "react";
 import styled from "styled-components";
-import AboutMeSection from "../Organisms/AboutMe/AboutMeSection";
-import { AboutMeData } from "../Data.ts/ProfileData";
+import AboutMeSection from "../../Organisms/AboutMe/AboutMeSection";
+import { AboutMeData } from "../../Data.ts/ProfileData";
+import EducationSection from "../../Organisms/AboutMe/EductionSection";
 
 const PageContainer = styled.div`
   max-width: 800px;
@@ -10,10 +12,11 @@ const PageContainer = styled.div`
   font-family: "Arial", sans-serif;
 `;
 
-const AboutMePage = () => {
+const AboutMePage: React.FC = () => {
   return (
     <PageContainer>
       <AboutMeSection {...AboutMeData} />
+      <EducationSection education={AboutMeData.education} />
     </PageContainer>
   );
 };

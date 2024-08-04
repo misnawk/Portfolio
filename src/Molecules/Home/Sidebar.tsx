@@ -57,8 +57,8 @@ const Sidebar = () => {
 
     {
       icon: faPen,
-      action: () => navigate("/study"),
-      isActive: location.pathname === "/study",
+      action: () => navigate("/StudyLogPage"),
+      isActive: location.pathname === "/StudyLogPage",
     },
 
     {

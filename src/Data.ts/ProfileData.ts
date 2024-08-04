@@ -4,6 +4,7 @@ import {
   ProfileInfoProps,
   ProfileIntroductionProps,
   SkillProps,
+  StudyProps,
 } from "../Type/Type";
 
 export const ProfileImgData: ProfileImgProps = {
@@ -43,26 +44,37 @@ export const AboutMeData: AboutMeProps = {
   ],
   education: [
     {
-      period: "2023.08 - 2023.11",
-      title:
-        "자바(JAVA)기반 스프링 응용SW개발자 양성과정B — 코리아IT아카데미 인천",
+      period: "2023.12.27 - 2024.01.31",
+      title: "자바(JAVA)특강 - 코리아IT아카데미 인천",
       description:
-        "Oracle을 이용하여 데이터 처리와 분석 능력을 배웠으며 스프링과 스프링 부트를 이용하여 백엔드 서버를 구축하였습니다.",
+        "자바의 기본 문법과 이클립스를 활용한 자바 프로그래밍을 다루었습니다.",
     },
-    // 추가적인 교육 항목들...
+    {
+      period: "2024.01.10 - 2024.02.05",
+      title: "Mysql 사용한 DBMS특강 - 코리아IT아카데미 인천",
+      description:
+        "MySQL Workbench를 활용하여 SQL의 기본적인 CRUD와 JOIN을 통해 데이터를 제어해보았습니다",
+    },
+    {
+      period: "2024.02.07 - 2024.07.16",
+      title: " 웹개발 특강 - 코리아IT아카데미 인천",
+      description:
+        "프론트엔드에서는 HTML, CSS, JavaScript를 활용하고, 백엔드에서는 Spring, Spring Boot, Spring Tool Suite(STS)를 사용하여 MyBatis와 MySQL 데이터베이스를 효율적으로 제어하는 방법을 숙달했습니다.",
+    },
+    {
+      period: "2024.04.24 - 2024.08.07",
+      title: " 자바 스프링 응용SW개발자 양성과정 - 코리아IT아카데미 인천",
+      description:
+        "프론트엔드에서는 React를 활용하고, 백엔드에서는 Spring Boot와 JSP 방식을 도입하여 MySQL 데이터베이스를 효율적으로 제어하며, 효율적인 데이터 처리와 사용자 인터페이스 구현을 경험했습니다.",
+    },
   ],
 };
 
 export const FirstprojectData = {
   title: "MY PROJECTS 1",
-  subtitle: "게시판 프로젝트: BoardProject",
-  description:
-    "게시판 프로젝트는 자유롭게 게시판에 글을 작성하고 댓글로 여러 의견을 나누는 커뮤니티 기능을 제공하는 웹 사이트입니다. 가장 기본적이면서도 많이 쓰는 커뮤니티를 만들어 보고 싶단 생각이 들어 개발하게 되었습니다.",
-  features: [
-    "게시판(등록,수정,삭제)",
-    "게시판글(등록,수정,삭제)",
-    "댓글(등록,수정,삭제)",
-  ],
+  subtitle: " 프로젝트 이름: Project",
+  description: "프로젝트 설명",
+  features: ["주요기능"],
   technologies: [
     "React.js",
     "JavaScript",
@@ -73,12 +85,15 @@ export const FirstprojectData = {
     "JAVA",
     "Gradle",
     "MySQL",
-    "AWS(EC2, RDS)",
+    "GitHub",
+    "Azure(CI/CD)",
   ],
   images: [
     "https://i.ibb.co/bKntMYC/git-7d664489ed331806ddc8.png",
     "https://i.ibb.co/ZHTD9Kk/html-e77138c4c431579d25d0.png",
     "https://i.ibb.co/Xsy4pCP/react-cd4ab68456d5875b788e.png",
+    "https://i.ibb.co/ZHTD9Kk/html-e77138c4c431579d25d0.png",
+    "https://i.ibb.co/ZHTD9Kk/html-e77138c4c431579d25d0.png",
   ],
   githubLink: "https://github.com/somi9954/BoardProject",
   demoLink: "http://freeboard.store",
@@ -86,14 +101,9 @@ export const FirstprojectData = {
 
 export const SecondprojectData = {
   title: "MY PROJECTS 2",
-  subtitle: "게시판 프로젝트: BoardProject",
-  description:
-    "게시판 프로젝트는 자유롭게 게시판에 글을 작성하고 댓글로 여러 의견을 나누는 커뮤니티 기능을 제공하는 웹 사이트입니다. 가장 기본적이면서도 많이 쓰는 커뮤니티를 만들어 보고 싶단 생각이 들어 개발하게 되었습니다.",
-  features: [
-    "게시판(등록,수정,삭제)",
-    "게시판글(등록,수정,삭제)",
-    "댓글(등록,수정,삭제)",
-  ],
+  subtitle: " 프로젝트 이름: Project",
+  description: "프로젝트 설명",
+  features: ["주요기능"],
   technologies: [
     "React.js",
     "JavaScript",
@@ -104,12 +114,15 @@ export const SecondprojectData = {
     "JAVA",
     "Gradle",
     "MySQL",
-    "AWS(EC2, RDS)",
+    "GitHub",
+    "Azure(CI/CD)",
   ],
   images: [
     "https://i.ibb.co/bKntMYC/git-7d664489ed331806ddc8.png",
     "https://i.ibb.co/ZHTD9Kk/html-e77138c4c431579d25d0.png",
     "https://i.ibb.co/Xsy4pCP/react-cd4ab68456d5875b788e.png",
+    "https://i.ibb.co/ZHTD9Kk/html-e77138c4c431579d25d0.png",
+    "https://i.ibb.co/ZHTD9Kk/html-e77138c4c431579d25d0.png",
   ],
   githubLink: "https://github.com/somi9954/BoardProject",
   demoLink: "http://freeboard.store",
@@ -117,14 +130,9 @@ export const SecondprojectData = {
 
 export const thirdProjectData = {
   title: "MY PROJECTS 3",
-  subtitle: "게시판 프로젝트: BoardProject",
-  description:
-    "게시판 프로젝트는 자유롭게 게시판에 글을 작성하고 댓글로 여러 의견을 나누는 커뮤니티 기능을 제공하는 웹 사이트입니다. 가장 기본적이면서도 많이 쓰는 커뮤니티를 만들어 보고 싶단 생각이 들어 개발하게 되었습니다.",
-  features: [
-    "게시판(등록,수정,삭제)",
-    "게시판글(등록,수정,삭제)",
-    "댓글(등록,수정,삭제)",
-  ],
+  subtitle: " 프로젝트 이름: Project",
+  description: "프로젝트 설명",
+  features: ["주요기능"],
   technologies: [
     "React.js",
     "JavaScript",
@@ -135,13 +143,52 @@ export const thirdProjectData = {
     "JAVA",
     "Gradle",
     "MySQL",
-    "AWS(EC2, RDS)",
+    "GitHub",
+    "Azure(CI/CD)",
   ],
   images: [
     "https://i.ibb.co/bKntMYC/git-7d664489ed331806ddc8.png",
     "https://i.ibb.co/ZHTD9Kk/html-e77138c4c431579d25d0.png",
     "https://i.ibb.co/Xsy4pCP/react-cd4ab68456d5875b788e.png",
+    "https://i.ibb.co/ZHTD9Kk/html-e77138c4c431579d25d0.png",
+    "https://i.ibb.co/ZHTD9Kk/html-e77138c4c431579d25d0.png",
   ],
   githubLink: "https://github.com/somi9954/BoardProject",
   demoLink: "http://freeboard.store",
 };
+
+export const studyEntries: StudyProps[] = [
+  {
+    id: 1,
+    title: "JAVA 학습",
+    description: "학원에서 자바를 배웠던것들을 기록했습니다.",
+    imageUrl: "https://i.ibb.co/f2X38pn/image.png",
+    date: "2024-03-15",
+    url: "https://kms13011.tistory.com/category/%28%ED%95%99%29%20%28%EA%B3%B5%29%20%28%EC%9E%90%29",
+  },
+  {
+    id: 2,
+    title: "DB 학습",
+    description: "DB학습 한것들을 기록했습니다.",
+    imageUrl: "https://i.ibb.co/P1K4mnn/image.png",
+    date: "2024-03-20",
+    url: "https://kms13011.tistory.com/category/%28%ED%95%99%29%20%28%EA%B3%B5%29%20%28%EB%94%94%29",
+  },
+  {
+    id: 3,
+    title: "웹개발특강 학습",
+    description: "웹 개발 강의를 들으며 중요한것들을 기록해두었습니다.",
+    imageUrl: "https://i.ibb.co/9scWNNX/image.png",
+    date: "2024-03-20",
+    url: "https://www.notion.so/WebDevelopment-85bd0260bbb743f1a383be813262f7b3",
+  },
+  {
+    id: 4,
+    title: "자바 스프링 응용SW개발자 양성과정 학습",
+    description:
+      "자바 스프링 응용SW개발자 양성과정 강의를 들으며 중요한것들을 기록해두었습니다.",
+    imageUrl: "https://i.ibb.co/T8c5RHH/image.png",
+    date: "2024-03-20",
+    url: "https://www.notion.so/HTML-CSS-js-React-31aee8cf29d946fc94fc9346ac52acb5",
+  },
+];

@@ -1,11 +1,10 @@
 import React from "react";
-
+import MyProfile from "../../Organisms/Home/MyProfile";
 import {
   ProfileImgData,
   ProfileInfoData,
   ProfileIntroductionData,
-} from "../Data.ts/ProfileData";
-import MyProfile from "../Organisms/Home/MyProfile";
+} from "../../Data.ts/ProfileData";
 
 const HomePage: React.FC = () => {
   return (

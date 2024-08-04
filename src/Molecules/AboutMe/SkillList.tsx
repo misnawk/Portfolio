@@ -1,24 +1,33 @@
+// Molecules/AboutMe/SkillList.tsx
 import React from "react";
 import styled from "styled-components";
-import SkillItem from "../../Atoms/AboutMe/SkillItem";
 
-const StyledSkillList = styled.div`
+const SkillContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
-  margin-top: 20px;
+  gap: 10px;
+  margin-bottom: 20px;
 `;
 
-type SkillListProps = {
-  skills: string[];
-};
+const Skill = styled.span`
+  background-color: #e0f2f1;
+  color: #00796b;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 14px;
+`;
 
-const SkillList = ({ skills }: SkillListProps) => {
+interface SkillListProps {
+  skills: string[];
+}
+
+const SkillList: React.FC<SkillListProps> = ({ skills }) => {
   return (
-    <StyledSkillList>
+    <SkillContainer>
       {skills.map((skill, index) => (
-        <SkillItem key={index} skill={skill} />
+        <Skill key={index}>{skill}</Skill>
       ))}
-    </StyledSkillList>
+    </SkillContainer>
   );
 };
 

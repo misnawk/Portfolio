@@ -36,7 +36,6 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
   <ProjectContainer>
     <ProjectTitle>{title}</ProjectTitle>
     <ProjectImageSlider images={images} />{" "}
-    {/* 변경: ProjectImage 대신 ProjectImageSlider 사용 */}
     <ProjectInfo
       title={subtitle}
       description={description}

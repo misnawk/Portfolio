@@ -54,9 +54,12 @@ export type SkillProps = {
   icon: string; // 기술 아이콘
 };
 
-// // 소셜 미디어 링크를 위한 타입
-// export type SocialLinkProps = {
-//   platform: string; // 소셜 미디어 플랫폼 이름
-//   url: string; // 프로필 링크 URL
-//   icon: string; // 플랫폼 아이콘 (이미지 URL 또는 컴포넌트)
-// };
+// 공부 흔적
+export type StudyProps = {
+  id: number;
+  url: string;
+  title: string;
+  description: string;
+  imageUrl: string;
+  date: string;
+};

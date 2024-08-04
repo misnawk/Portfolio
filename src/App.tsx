@@ -1,12 +1,14 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Sidebar from "./Molecules/Home/Sidebar";
-import HomePage from "./page/HomePage";
+
 import styled, { createGlobalStyle } from "styled-components";
-import AboutMePage from "./page/AboutMePage";
-import { FirstProjectPage } from "./page/FirstProjectPage";
-import { SecondProjectPage } from "./page/SecondProjectPage";
-import { ThirdProjectsPage } from "./page/ThirdProjectsPage";
+import AboutMePage from "./page/AboutMe/AboutMePage";
+import { FirstProjectPage } from "./page/Project/FirstProjectPage";
+import { SecondProjectPage } from "./page/Project/SecondProjectPage";
+import { ThirdProjectsPage } from "./page/Project/ThirdProjectsPage";
+import HomePage from "./page/Home/HomePage";
+import { StudyLogPage } from "./page/Study/StudyLogPage";
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -62,6 +64,7 @@ const App = () => {
                   path="/ThirdProjectsPage"
                   element={<ThirdProjectsPage />}
                 />
+                <Route path="/StudyLogPage" element={<StudyLogPage />} />
               </Routes>
             </ContentWrapper>
           </RouteContainer>

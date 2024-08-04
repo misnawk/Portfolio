@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import { ProjectCard } from "../Organisms/Project/ProjectCard";
-import { SecondprojectData, thirdProjectData } from "../Data.ts/ProfileData";
+import { ProjectCard } from "../../Organisms/Project/ProjectCard";
+import { SecondprojectData } from "../../Data.ts/ProfileData";
 
 const PageContainer = styled.div`
   background-color: #121212;
@@ -24,11 +24,11 @@ const PageTitle = styled.h1`
   text-align: center;
 `;
 
-export const ThirdProjectsPage = () => (
+export const SecondProjectPage = () => (
   <PageContainer>
     <ContentWrapper>
-      <PageTitle>{thirdProjectData.title}</PageTitle>
-      <ProjectCard {...thirdProjectData} />
+      <PageTitle>{SecondprojectData.title}</PageTitle>
+      <ProjectCard {...SecondprojectData} />
     </ContentWrapper>
   </PageContainer>
 );

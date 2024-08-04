@@ -1,3 +1,4 @@
+// Organisms/AboutMe/AboutMeSection.tsx
 import React from "react";
 import styled from "styled-components";
 import EducationList from "../../Molecules/AboutMe/EducationList";
@@ -9,21 +10,27 @@ const Section = styled.section`
 `;
 
 const SectionTitle = styled.h2`
-  font-size: 24px;
+  font-size: 28px;
   color: #333;
   margin-bottom: 20px;
   border-bottom: 2px solid #333;
   padding-bottom: 10px;
 `;
 
-const AboutMeSection = ({ skills, education }: AboutMeProps) => {
+const SubTitle = styled.h3`
+  font-size: 22px;
+  color: #444;
+  margin-top: 20px;
+  margin-bottom: 15px;
+`;
+
+const AboutMeSection: React.FC<AboutMeProps> = ({ skills, education }) => {
   return (
     <Section>
       <SectionTitle>About Me</SectionTitle>
-      <h3>Skills</h3>
+      <SubTitle>Skills</SubTitle>
       <SkillList skills={skills} />
-      <h3>Education</h3>
-      <EducationList educations={education} />
+      <SubTitle>Education</SubTitle>
     </Section>
   );
 };
