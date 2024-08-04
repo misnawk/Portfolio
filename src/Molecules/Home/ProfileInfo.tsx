@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import InfoItem from "../Atoms/InfoItem";
-import { ProfileInfoProps } from "../Type/Type";
+import InfoItem from "../../Atoms/Home/InfoItem";
+import { ProfileInfoProps } from "../../Type/Type";
 
 const Container = styled.div`
   flex: 2;

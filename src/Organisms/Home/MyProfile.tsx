@@ -1,16 +1,16 @@
 import React from "react";
 import styled from "styled-components";
-import ProfileImage from "../Atoms/ProfileImage";
-import ProfileInfo from "../Molecules/ProfileInfo";
 import {
-  ProfileInfoProps,
   ProfileImgProps,
+  ProfileInfoProps,
   ProfileIntroductionProps,
-} from "../Type/Type";
-import ProfileIntroduction from "../Molecules/ProfileIntroduction";
+} from "../../Type/Type";
+import ProfileImage from "../../Atoms/Home/ProfileImage";
+import ProfileIntroduction from "../../Molecules/Home/ProfileIntroduction";
+import ProfileInfo from "../../Molecules/Home/ProfileInfo";
 
 const Container = styled.div`
-overflow-y: hidden;
+  overflow-y: hidden;
   border: 1px solid #e0e0e0;
   border-radius: 20px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
@@ -77,6 +77,7 @@ const MyProfile = ({
 
     <ContentContainer>
       <ProfileIntroduction {...profileIntroduction} />
+
       <Divider />
       <ProfileInfo {...profileInfo} />
     </ContentContainer>

@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { ProfileImgProps } from "../Type/Type";
+import { ProfileImgProps } from "../../Type/Type";
 
 const Image = styled.img`
   width: 100%;
@@ -17,4 +17,3 @@ const ProfileImage = ({ icon }: ProfileImgProps) => (
 );
 
 export default ProfileImage;
-

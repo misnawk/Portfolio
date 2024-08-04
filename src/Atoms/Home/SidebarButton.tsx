@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { SideButtonProps } from "../Type/Type";
+import { SideButtonProps } from "../../Type/Type";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Button = styled.button<{ isActive: boolean }>`

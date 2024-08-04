@@ -27,5 +27,3 @@ const InfoItem = ({ label, value }: InfoItemProps) => (
 );
 
 export default InfoItem;
-
-// 프로필 정보 입력 정의

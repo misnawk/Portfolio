@@ -1,13 +1,14 @@
 import React from "react";
 import styled from "styled-components";
-import SidebarButton from "../Atoms/SidebarButton";
-import { SideButtonProps } from "../Type/Type";
+import SidebarButton from "../../Atoms/Home/SidebarButton";
+import { SideButtonProps } from "../../Type/Type";
 import { useLocation, useNavigate } from "react-router-dom";
 import { faGithub } from "@fortawesome/free-brands-svg-icons"; // 브랜드 아이콘 가져오기
 import {
   faFolder,
   faHouse,
   faListCheck,
+  faPen,
   faUser,
 } from "@fortawesome/free-solid-svg-icons"; //일반 폰트어썸 아이콘 가져오기
 
@@ -35,8 +36,8 @@ const Sidebar = () => {
     },
     {
       icon: faUser,
-      action: () => navigate("/skills"),
-      isActive: location.pathname === "/skills",
+      action: () => navigate("/About"),
+      isActive: location.pathname === "/About",
     },
     {
       icon: faListCheck,
@@ -52,6 +53,12 @@ const Sidebar = () => {
       icon: faListCheck,
       action: () => navigate("/thirdProjects"),
       isActive: location.pathname === "/thirdProjects",
+    },
+
+    {
+      icon: faPen,
+      action: () => navigate("/study"),
+      isActive: location.pathname === "/study",
     },
 
     {

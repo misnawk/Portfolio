@@ -1,9 +1,3 @@
-// // 인사말 섹션을 위한 타입
-// export type GreetingProps = {
-//   title: string; // 인사말 제목
-//   content: string; // 인사말 내용
-// };
-
 import { IconDefinition } from "@fortawesome/fontawesome-svg-core";
 
 // 프로필 이미지
@@ -43,6 +37,7 @@ export type AboutMeProps = {
 // 교육 이력 항목을 위한 타입
 export type EducationProps = {
   period: string; // 교육 기간
+  title: string;
   description: string; // 교육 내용 설명
 };
 
@@ -51,18 +46,17 @@ export type ProjectProps = {
   title: string; // 프로젝트 제목
   description: string; // 프로젝트 설명
   technologies: string[]; // 사용된 기술 목록
-  githubLink?: string; // GitHub 저장소 링크 (선택적)
+  githubLink?: string; // GitHub 저장소 링크
 };
 
 // 기술 스택 아이템을 위한 타입
 export type SkillProps = {
-  name: string; // 기술 이름
-  icon: string; // 기술 아이콘 (이미지 URL 또는 컴포넌트)
+  icon: string; // 기술 아이콘
 };
 
-// 소셜 미디어 링크를 위한 타입
-export type SocialLinkProps = {
-  platform: string; // 소셜 미디어 플랫폼 이름
-  url: string; // 프로필 링크 URL
-  icon: string; // 플랫폼 아이콘 (이미지 URL 또는 컴포넌트)
-};
+// // 소셜 미디어 링크를 위한 타입
+// export type SocialLinkProps = {
+//   platform: string; // 소셜 미디어 플랫폼 이름
+//   url: string; // 프로필 링크 URL
+//   icon: string; // 플랫폼 아이콘 (이미지 URL 또는 컴포넌트)
+// };

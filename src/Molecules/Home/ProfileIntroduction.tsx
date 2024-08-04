@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { ProfileIntroductionProps } from "../Type/Type";
+import { ProfileIntroductionProps } from "../../Type/Type";
 
 const Container = styled.div`
   display: flex;
