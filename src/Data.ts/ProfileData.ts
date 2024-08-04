@@ -95,8 +95,8 @@ export const FirstprojectData = {
     "https://i.ibb.co/ZHTD9Kk/html-e77138c4c431579d25d0.png",
     "https://i.ibb.co/ZHTD9Kk/html-e77138c4c431579d25d0.png",
   ],
-  githubLink: "https://github.com/somi9954/BoardProject",
-  demoLink: "http://freeboard.store",
+  githubLink: "",
+  demoLink: "",
 };
 
 export const SecondprojectData = {
@@ -124,8 +124,8 @@ export const SecondprojectData = {
     "https://i.ibb.co/ZHTD9Kk/html-e77138c4c431579d25d0.png",
     "https://i.ibb.co/ZHTD9Kk/html-e77138c4c431579d25d0.png",
   ],
-  githubLink: "https://github.com/somi9954/BoardProject",
-  demoLink: "http://freeboard.store",
+  githubLink: "",
+  demoLink: "",
 };
 
 export const thirdProjectData = {
@@ -153,8 +153,8 @@ export const thirdProjectData = {
     "https://i.ibb.co/ZHTD9Kk/html-e77138c4c431579d25d0.png",
     "https://i.ibb.co/ZHTD9Kk/html-e77138c4c431579d25d0.png",
   ],
-  githubLink: "https://github.com/somi9954/BoardProject",
-  demoLink: "http://freeboard.store",
+  githubLink: "",
+  demoLink: "",
 };
 
 export const studyEntries: StudyProps[] = [
