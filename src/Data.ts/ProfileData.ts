@@ -117,8 +117,8 @@ export const SecondprojectData = {
     "Azure(CI/CD)",
   ],
   images: ["test.gif"],
-  githubLink: "",
-  demoLink: "",
+  githubLink: "https://github.com/misnawk/bechef-front",
+  demoLink: "https://gentle-field-017139e00.5.azurestaticapps.net",
 };
 
 export const thirdProjectData = {
