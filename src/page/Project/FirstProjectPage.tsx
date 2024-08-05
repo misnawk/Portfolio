@@ -1,8 +1,9 @@
 // pages/ProjectPage.tsx
 import React from "react";
 import styled from "styled-components";
-import { ProjectCard } from "../../Organisms/Project/ProjectCard";
+
 import { FirstprojectData } from "../../Data.ts/ProfileData";
+import { ProjectCard } from "../../Organisms/Project/ProjectCard";
 
 const PageContainer = styled.div`
   background-color: #121212;

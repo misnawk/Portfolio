@@ -18,21 +18,21 @@ interface ProjectCardProps {
   description: string;
   features: string[];
   technologies: string[];
-  images: string[]; // 변경: imageUrl 대신 images 배열
+  images: string[];
   githubLink: string;
   demoLink: string;
 }
 
-export const ProjectCard: React.FC<ProjectCardProps> = ({
+export const ProjectCard = ({
   title,
   subtitle,
   description,
   features,
   technologies,
-  images, // 변경: imageUrl 대신 images
+  images,
   githubLink,
   demoLink,
-}) => (
+}: ProjectCardProps) => (
   <ProjectContainer>
     <ProjectTitle>{title}</ProjectTitle>
     <ProjectImageSlider images={images} />{" "}
