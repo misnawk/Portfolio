@@ -116,13 +116,7 @@ export const SecondprojectData = {
     "GitHub",
     "Azure(CI/CD)",
   ],
-  images: [
-    "https://i.ibb.co/bKntMYC/git-7d664489ed331806ddc8.png",
-    "https://i.ibb.co/ZHTD9Kk/html-e77138c4c431579d25d0.png",
-    "https://i.ibb.co/Xsy4pCP/react-cd4ab68456d5875b788e.png",
-    "https://i.ibb.co/ZHTD9Kk/html-e77138c4c431579d25d0.png",
-    "https://i.ibb.co/ZHTD9Kk/html-e77138c4c431579d25d0.png",
-  ],
+  images: ["test.gif"],
   githubLink: "",
   demoLink: "",
 };
