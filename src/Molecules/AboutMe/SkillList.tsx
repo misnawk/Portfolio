@@ -21,7 +21,7 @@ interface SkillListProps {
   skills: string[];
 }
 
-const SkillList: React.FC<SkillListProps> = ({ skills }) => {
+const SkillList = ({ skills }: SkillListProps) => {
   return (
     <SkillContainer>
       {skills.map((skill, index) => (

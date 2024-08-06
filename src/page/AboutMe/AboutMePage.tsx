@@ -12,7 +12,7 @@ const PageContainer = styled.div`
   font-family: "Arial", sans-serif;
 `;
 
-const AboutMePage: React.FC = () => {
+const AboutMePage= () => {
   return (
     <PageContainer>
       <AboutMeSection {...AboutMeData} />

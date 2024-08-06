@@ -22,7 +22,7 @@ interface EducationSectionProps {
   education: EducationProps[];
 }
 
-const EducationSection: React.FC<EducationSectionProps> = ({ education }) => {
+const EducationSection = ({ education }: EducationSectionProps) => {
   return (
     <Section>
       <EducationList educations={education} />

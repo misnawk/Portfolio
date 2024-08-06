@@ -24,7 +24,7 @@ const SubTitle = styled.h3`
   margin-bottom: 15px;
 `;
 
-const AboutMeSection: React.FC<AboutMeProps> = ({ skills, education }) => {
+const AboutMeSection = ({ skills }: AboutMeProps) => {
   return (
     <Section>
       <SectionTitle>About Me</SectionTitle>

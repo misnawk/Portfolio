@@ -34,11 +34,7 @@ const Description = styled.p`
   line-height: 1.5;
 `;
 
-const EducationItem: React.FC<EducationProps> = ({
-  period,
-  title,
-  description,
-}) => {
+const EducationItem = ({ period, title, description }: EducationProps) => {
   return (
     <StyledEducationItem>
       <Period>{period}</Period>

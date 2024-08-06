@@ -100,9 +100,17 @@ export const FirstprojectData = {
 
 export const SecondprojectData = {
   title: "MY PROJECTS 2",
-  subtitle: " 프로젝트 이름: Project",
-  description: "프로젝트 설명",
-  features: ["주요기능"],
+  subtitle: " 프로젝트 이름: Bechef",
+  description:
+    "사용자가 주변 밀키트 판매점의 위치와 재고를 실시간으로 확인가능한 웹사이트 입니다. 개인의 경험을 리뷰와 찜 기능으로 기록, 공유 할 수 있습니다.",
+  features: [
+    ["1. 서비스 접속 즉시 현재 위치 기반 검색창과 지도가 나타납니다."],
+    ["2. 검색 후 리뷰, 별점순 정렬이 가능합니다."],
+    ["3. 검색 후 검색결과를 누르면 매장 정보 화면으로 이동합니다."],
+    ["4. 로그인 후 마이페이지 버튼을 누르면 리뷰와 찜 기록이 나타납니다."],
+    ["5. 리뷰와 찜 리스트에서 원하는 것을 클릭하면 해당 매장으로 이동합니다."],
+  ],
+
   technologies: [
     "React.js",
     "JavaScript",
@@ -116,7 +124,13 @@ export const SecondprojectData = {
     "GitHub",
     "Azure(CI/CD)",
   ],
-  images: ["test.gif"],
+  images: [
+    "bechef/메인화면(1).gif",
+    "bechef/리뷰와 찜리스트(2).gif",
+    "bechef/회원탈퇴(4).gif",
+    "bechef/로그인(5).gif",
+    "bechef/회원가입(6).gif",
+  ],
   githubLink: "https://github.com/misnawk/bechef-front",
   demoLink: "https://gentle-field-017139e00.5.azurestaticapps.net",
 };
@@ -130,11 +144,14 @@ export const thirdProjectData = {
     "React.js",
     "JavaScript",
     "HTML",
-    "CSS",
+    "tailwindCSS",
+    "SpringSecurity",
+    "JWT",
     "Spring Boot",
-    "Spring",
-    "JAVA",
+    "Java",
     "Gradle",
+    "Notion",
+    "Dbeaver",
     "MySQL",
     "GitHub",
     "Azure(CI/CD)",

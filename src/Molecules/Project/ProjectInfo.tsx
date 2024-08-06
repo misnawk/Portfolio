@@ -16,24 +16,41 @@ const TagContainer = styled.div`
   margin-top: 12px;
 `;
 
+const FeatureItem = styled.li`
+  margin-bottom: 8px;
+  text-indent: -20px;
+`;
+
+const FeatureList = styled.ul`
+  margin: 0;
+  padding-left: 20px;
+  list-style: none;
+`;
+
 interface ProjectInfoProps {
   title: string;
   description: string;
-  features: string[];
+  features: string[][];
   technologies: string[];
 }
 
-export const ProjectInfo: React.FC<ProjectInfoProps> = ({
+export const ProjectInfo = ({
   title,
   description,
   features,
   technologies,
-}) => (
+}: ProjectInfoProps) => (
   <InfoContainer>
     <ProjectSubtitle>{title}</ProjectSubtitle>
     <ProjectText>{description}</ProjectText>
     <ProjectSubtitle>주요 기능</ProjectSubtitle>
-    <ProjectText>{features.join(", ")}</ProjectText>
+    <FeatureList>
+      {features.map((feature, index) => (
+        <FeatureItem key={index - 1}>
+          <ProjectText>{features[index]}</ProjectText>
+        </FeatureItem>
+      ))}
+    </FeatureList>
     <ProjectSubtitle>사용 기술</ProjectSubtitle>
     <TagContainer>
       {technologies.map((tech, index) => (
