@@ -34,7 +34,7 @@ export const ProjectCard = ({
   demoLink,
 }: ProjectCardProps) => (
   <ProjectContainer>
-    <ProjectTitle>{title}</ProjectTitle>
+    <div>
     <ProjectImageSlider images={images} />{" "}
     <ProjectInfo
       title={subtitle}
@@ -54,5 +54,6 @@ export const ProjectCard = ({
         Demo
       </ProjectButton>
     </ProjectButtonContainer>
+    </div>
   </ProjectContainer>
 );

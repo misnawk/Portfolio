@@ -30,7 +30,7 @@ export const FirstProjectPage = () => (
   <PageContainer>
     <ContentWrapper>
       <PageTitle>{FirstprojectData.title}</PageTitle>
-      {/* <ProjectCard {...FirstprojectData} /> */}
+      <ProjectCard {...FirstprojectData} />
     </ContentWrapper>
   </PageContainer>
 );
