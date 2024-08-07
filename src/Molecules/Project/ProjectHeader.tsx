@@ -1,5 +1,4 @@
 import React from "react";
-import { ProjectTitle } from "../../Atoms/Project/ProjectTitle";
 import { ProjectText } from "../../Atoms/Project/ProjectText";
 
 interface ProjectHeaderProps {
@@ -12,7 +11,6 @@ export const ProjectHeader: React.FC<ProjectHeaderProps> = ({
   description,
 }) => (
   <div>
-    <ProjectTitle>{title}</ProjectTitle>
     <ProjectText>{description}</ProjectText>
   </div>
 );

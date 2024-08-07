@@ -1,13 +1,11 @@
 import styled from "styled-components";
 
+
 export const ProjectTitle = styled.h1`
-  font-size: 36px;
-  color: white;
-  margin-bottom: 30px;
-
-  span {
-    color: #ffd700;
-  }
+  color: #ffd700;
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-bottom: 1.875rem;
+  text-align: center;
+  letter-spacing: 0.05em;
 `;
-
-

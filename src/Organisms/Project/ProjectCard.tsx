@@ -2,7 +2,6 @@
 import React from "react";
 import styled from "styled-components";
 import { ProjectContainer } from "../../Atoms/Project/ProjectContainer";
-import { ProjectTitle } from "../../Atoms/Project/ProjectTitle";
 import { ProjectImageSlider } from "../../Molecules/Project/ProjectImageSlider";
 import { ProjectInfo } from "../../Molecules/Project/ProjectInfo";
 import { ProjectButton } from "../../Atoms/Project/ProjectButton";

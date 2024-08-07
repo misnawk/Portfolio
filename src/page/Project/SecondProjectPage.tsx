@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { ProjectCard } from "../../Organisms/Project/ProjectCard";
 import { SecondprojectData } from "../../Data.ts/ProfileData";
+import { ProjectTitle } from "../../Atoms/Project/ProjectTitle";
 
 const PageContainer = styled.div`
   background-color: #121212;
@@ -17,17 +18,10 @@ const ContentWrapper = styled.div`
   width: 100%;
 `;
 
-const PageTitle = styled.h1`
-  color: #ffd700;
-  font-size: 36px;
-  margin-bottom: 30px;
-  text-align: center;
-`;
-
 export const SecondProjectPage = () => (
   <PageContainer>
     <ContentWrapper>
-      <PageTitle>{SecondprojectData.title}</PageTitle>
+      <ProjectTitle>{SecondprojectData.title}</ProjectTitle>
       <ProjectCard {...SecondprojectData} />
     </ContentWrapper>
   </PageContainer>
