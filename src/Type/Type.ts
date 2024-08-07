@@ -22,7 +22,7 @@ export type ProfileInfoProps = {
 };
 
 // 사이드바 버튼을 위한 타입
-export type SideButtonProps = {
+export type NavigationButtonProps = {
   icon: IconDefinition;
   action: () => void; // 버튼 클릭 시 실행될 함수
   isActive: boolean;

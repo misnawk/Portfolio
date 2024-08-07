@@ -1,4 +1,3 @@
-// pages/AboutMePage.tsx
 import React from "react";
 import styled from "styled-components";
 import AboutMeSection from "../../Organisms/AboutMe/AboutMeSection";
@@ -7,12 +6,12 @@ import EducationSection from "../../Organisms/AboutMe/EductionSection";
 
 const PageContainer = styled.div`
   max-width: 800px;
-  margin: 0 auto;
+  margin: 70px auto 0; // 상단 네비게이션 높이만큼 여백
   padding: 40px 20px;
   font-family: "Arial", sans-serif;
 `;
 
-const AboutMePage= () => {
+const AboutMePage = () => {
   return (
     <PageContainer>
       <AboutMeSection {...AboutMeData} />
