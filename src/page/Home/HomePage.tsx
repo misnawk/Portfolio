@@ -7,21 +7,13 @@ import {
   ProfileIntroductionData,
 } from "../../Data.ts/ProfileData";
 
-const HomePageContainer = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-`;
-
-const HomePage: React.FC = () => {
+const HomePage = () => {
   return (
-    <HomePageContainer>
-      <MyProfile
-        profileInfo={ProfileInfoData}
-        profileImg={ProfileImgData}
-        profileIntroduction={ProfileIntroductionData}
-      />
-    </HomePageContainer>
+    <MyProfile
+      profileInfo={ProfileInfoData}
+      profileImg={ProfileImgData}
+      profileIntroduction={ProfileIntroductionData}
+    />
   );
 };
 

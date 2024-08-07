@@ -15,7 +15,6 @@ const Container = styled.div`
   border-radius: 20px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   max-width: 1000px;
-  min-height: 800px;
   width: fit-content;
   margin: 50px auto;
   padding: 40px;
