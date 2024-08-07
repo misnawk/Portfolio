@@ -27,10 +27,10 @@ const SubTitle = styled.h3`
 const AboutMeSection = ({ skills }: AboutMeProps) => {
   return (
     <Section>
-      <SectionTitle>About Me</SectionTitle>
+      {/* <SectionTitle>About Me</SectionTitle> */}
       <SubTitle>Skills</SubTitle>
       <SkillList skills={skills} />
-      <SubTitle>Education</SubTitle>
+      {/* <SubTitle>Education</SubTitle> */}
     </Section>
   );
 };

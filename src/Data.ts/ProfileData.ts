@@ -71,14 +71,18 @@ export const AboutMeData: AboutMeProps = {
 
 export const FirstprojectData = {
   title: "MY PROJECTS 1",
-  subtitle: " 프로젝트 이름: Project",
+  subtitle: " 프로젝트 이름: Traveler",
   description: "프로젝트 설명",
   features: [
-    ["1. 서비스 접속 즉시 현재 위치 기반 검색창과 지도가 나타납니다."],
-    ["2. 검색 후 리뷰, 별점순 정렬이 가능합니다."],
-    ["3. 검색 후 검색결과를 누르면 매장 정보 화면으로 이동합니다."],
-    ["4. 로그인 후 마이페이지 버튼을 누르면 리뷰와 찜 기록이 나타납니다."],
-    ["5. 리뷰와 찜 리스트에서 원하는 것을 클릭하면 해당 매장으로 이동합니다."],
+    ["1. 여행지의 항공, 숙박, 티켓, 패키지를 한 사이트에서 찾아볼수있습니다."],
+    ["2. 상품 예약시 자동으로 캘린더에 저장되며 개인용도로도 사용가능합니다."],
+    [
+      "3. 최고관리자/상품등록유저(항공,숙소,티켓,패키지)/유저 가 있어서 다양한 활용이 가능합니다. ",
+    ],
+    ["4. 나라별 게시판을 쓸수있는 기능이 있어서 소통에 용이합니다."],
+    [
+      "5. 마이페이지에서 유저사용자는 자신이 예약한 상품을 볼수있고 상품등록유저는 자신이 등록한 상품들을 볼수있습니다.",
+    ],
   ],
   technologies: [
     "HTML",
@@ -93,14 +97,15 @@ export const FirstprojectData = {
     "ImgbbApi ",
   ],
   images: [
-    "https://i.ibb.co/MVf8Wft/image.png",
-    "https://i.ibb.co/rc6H6LN/image.png",
-    "https://i.ibb.co/pjSjBbx/image.png",
-    "https://i.ibb.co/YyQ86n6/image.png",
-    "https://i.ibb.co/P1fkbwL/image.png",
+    "travel/게시판.gif",
+    "travel/티켓.gif",
+    "travel/숙박.gif",
+    "travel/패키지.gif",
+    "travel/항공.gif",
   ],
-  githubLink: "",
-  demoLink: "",
+  githubLink: "https://github.com/misnawk/travel",
+  demoLink:
+    "https://traveler-ssr-htdkfzcjfbdjcbby.koreacentral-01.azurewebsites.net/",
 };
 
 export const SecondprojectData = {
