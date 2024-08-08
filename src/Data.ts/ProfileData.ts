@@ -40,12 +40,21 @@ export const AboutMeData: AboutMeProps = {
     "Java",
     "Spring",
     "springBoot",
+    "Wireshark",
+    "Nmap",
+    "GitHub",
+    "IntelliJ",
+    "Azure",
+    "CI/CD",
+    "Notion",
+    "Figma",
   ],
   education: [
     {
       period: "2018.03 - 2024.02",
       title: "네트워크 - 호원대학교",
-      description: "네트워크지식",
+      description:
+        "네트워크 프로토콜, 네트워크 장치,네트워크 구성 요소, OSI모델, 토폴로지,네트워크 장치 등등 ",
     },
     {
       period: "2023.12.27 - 2024.01.31",
