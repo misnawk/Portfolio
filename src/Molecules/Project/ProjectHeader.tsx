@@ -7,7 +7,6 @@ interface ProjectHeaderProps {
 }
 
 export const ProjectHeader: React.FC<ProjectHeaderProps> = ({
-  title,
   description,
 }) => (
   <div>

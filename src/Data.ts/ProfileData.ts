@@ -43,6 +43,11 @@ export const AboutMeData: AboutMeProps = {
   ],
   education: [
     {
+      period: "2018.03 - 2024.02",
+      title: "네트워크 - 호원대학교",
+      description: "네트워크지식",
+    },
+    {
       period: "2023.12.27 - 2024.01.31",
       title: "자바(JAVA)특강 - 코리아IT아카데미 인천",
       description:
