@@ -8,7 +8,7 @@ import {
 } from "../Type/Type";
 
 export const ProfileImgData: ProfileImgProps = {
-  icon: "https://i.ibb.co/8c4CyWt/b94f4b059182f4d5-sticker.png",
+  icon: "강민석사진.jpg",
 };
 
 export const ProfileIntroductionData: ProfileIntroductionProps = {
@@ -38,12 +38,13 @@ export const AboutMeData: AboutMeProps = {
     "Mysql",
     "Oracle",
     "Java",
+    "JavaScript",
     "Spring",
-    "springBoot",
+    "Spring Boot",
     "Wireshark",
     "Nmap",
     "GitHub",
-    "IntelliJ",
+    "IntelliJ IDEA",
     "Azure",
     "CI/CD",
     "Notion",
@@ -54,7 +55,7 @@ export const AboutMeData: AboutMeProps = {
       period: "2018.03 - 2024.02",
       title: "네트워크 - 호원대학교",
       description:
-        "네트워크 프로토콜, 네트워크 장치,네트워크 구성 요소, OSI모델, 토폴로지,네트워크 장치 등등 ",
+        "키 관리(키 분배, 키 생성, 키 저장), 대칭 암호(AES, DES), 비대칭 암호(RSA, ECC), 해시 함수(SHA-256), 디지털 서명(DSA), 스케줄링 알고리즘(FIFO, SJF, SRTF, RR 등), WireShark(패킷 분석 툴), Burp Suite(웹 애플리케이션 보안 테스트) 등을 학습했습니다. ",
     },
     {
       period: "2023.12.27 - 2024.01.31",

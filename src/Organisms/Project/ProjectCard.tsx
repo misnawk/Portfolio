@@ -34,25 +34,29 @@ export const ProjectCard = ({
 }: ProjectCardProps) => (
   <ProjectContainer>
     <div>
-    <ProjectImageSlider images={images} />{" "}
-    <ProjectInfo
-      title={subtitle}
-      description={description}
-      features={features}
-      technologies={technologies}
-    />
-    <ProjectButtonContainer>
-      <ProjectButton
-        href={githubLink}
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GitHub
-      </ProjectButton>
-      <ProjectButton href={demoLink} target="_blank" rel="noopener noreferrer">
-        Demo
-      </ProjectButton>
-    </ProjectButtonContainer>
+      <ProjectImageSlider images={images} />{" "}
+      <ProjectInfo
+        title={subtitle}
+        description={description}
+        features={features}
+        technologies={technologies}
+      />
+      <ProjectButtonContainer>
+        <ProjectButton
+          href={githubLink}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub
+        </ProjectButton>
+        <ProjectButton
+          href={demoLink}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Demo
+        </ProjectButton>
+      </ProjectButtonContainer>
     </div>
   </ProjectContainer>
 );
