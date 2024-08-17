@@ -221,7 +221,7 @@ export const studyEntries: StudyProps[] = [
   {
     id: 2,
     title: "DB",
-    description: "DataBase에 대해서 공부한것들을 기록했습니다..",
+    description: "DataBase에 대해서 공부한것들을 기록했습니다.",
     imageUrl: "https://i.ibb.co/P1K4mnn/image.png",
     date: "2024-03-20",
     url: "https://kms13011.tistory.com/category/%28%ED%95%99%29%20%28%EA%B3%B5%29%20%28%EB%94%94%29",
