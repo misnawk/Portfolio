@@ -43,6 +43,7 @@ export const AboutMeData: AboutMeProps = {
     "Spring Boot",
     "Wireshark",
     "Nmap",
+    "Linux",
     "GitHub",
     "IntelliJ IDEA",
     "Azure",
@@ -55,7 +56,7 @@ export const AboutMeData: AboutMeProps = {
       period: "2018.03 - 2024.02",
       title: "호원대학교 - 정보보안학과 졸업",
       description:
-        "키 관리(키 분배, 키 생성, 키 저장), 대칭 암호(AES, DES), 비대칭 암호(RSA, ECC), 해시 함수(SHA-256), 디지털 서명(DSA), 스케줄링 알고리즘(FIFO, SJF, SRTF, RR 등), WireShark(패킷 분석 툴), Burp Suite(웹 애플리케이션 보안 테스트) 등을 학습했습니다. ",
+        "키 관리(키 분배, 키 생성, 키 저장), 대칭 암호(AES, DES), 비대칭 암호(RSA, ECC), 해시 함수(SHA-256), 디지털 서명(DSA), 스케줄링 알고리즘(FIFO, SJF, SRTF, RR 등),Linux우분투, WireShark(패킷 분석 툴), Burp Suite(웹 애플리케이션 보안 테스트) 등을 학습했습니다. ",
     },
     {
       period: "2023.12.27 - 2024.01.31",
@@ -80,6 +81,12 @@ export const AboutMeData: AboutMeProps = {
       title: " 자바 스프링 응용SW개발자 양성과정 - 코리아IT아카데미 인천",
       description:
         "프론트엔드에서는 React를 활용하고, 백엔드에서는 Spring Boot와 JSP 방식을 도입하여 MySQL 데이터베이스를 효율적으로 제어하며, 효율적인 데이터 처리와 사용자 인터페이스 구현을 경험했습니다.",
+    },
+    {
+      period: "2024.08.12 - 2024.09.12(미정)",
+      title: " 화이트클리닉 관리자페이지 제작 - 외부프로젝트",
+      description:
+        "화이트클리닉은 현재 서비스중인 홈페이지입니다. 화이트클리닉의 관리자페이지를 제작하게 되었습니다.",
     },
   ],
 };
@@ -205,23 +212,23 @@ export const thirdProjectData = {
 export const studyEntries: StudyProps[] = [
   {
     id: 1,
-    title: "JAVA 학습",
-    description: "학원에서 자바를 배웠던것들을 기록했습니다.",
+    title: "JAVA",
+    description: "자바에 대해서 공부한것들을 기록했습니다.",
     imageUrl: "https://i.ibb.co/f2X38pn/image.png",
     date: "2024-03-15",
     url: "https://kms13011.tistory.com/category/%28%ED%95%99%29%20%28%EA%B3%B5%29%20%28%EC%9E%90%29",
   },
   {
     id: 2,
-    title: "DB 학습",
-    description: "DB학습 한것들을 기록했습니다.",
+    title: "DB",
+    description: "DataBase에 대해서 공부한것들을 기록했습니다..",
     imageUrl: "https://i.ibb.co/P1K4mnn/image.png",
     date: "2024-03-20",
     url: "https://kms13011.tistory.com/category/%28%ED%95%99%29%20%28%EA%B3%B5%29%20%28%EB%94%94%29",
   },
   {
     id: 3,
-    title: "웹개발특강 학습",
+    title: "Web Development",
     description: "웹 개발 강의를 들으며 중요한것들을 기록해두었습니다.",
     imageUrl: "https://i.ibb.co/9scWNNX/image.png",
     date: "2024-03-20",
@@ -229,7 +236,7 @@ export const studyEntries: StudyProps[] = [
   },
   {
     id: 4,
-    title: "자바 스프링 응용SW개발자 양성과정 학습",
+    title: "Web development",
     description:
       "자바 스프링 응용SW개발자 양성과정 강의를 들으며 중요한것들을 기록해두었습니다.",
     imageUrl: "https://i.ibb.co/T8c5RHH/image.png",
