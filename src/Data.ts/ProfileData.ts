@@ -50,6 +50,7 @@ export const AboutMeData: AboutMeProps = {
     "CI/CD",
     "Notion",
     "Figma",
+    "Next.js", 
   ],
   education: [
     {
