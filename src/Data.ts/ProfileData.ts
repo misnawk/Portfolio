@@ -191,7 +191,7 @@ export const thirdProjectData = {
     "HTML",
     "tailwindCSS",
     "SpringSecurity",
-    "JWT",
+    // "JWT",
     "Spring Boot",
     "Java",
     "Gradle",
