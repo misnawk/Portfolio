@@ -188,7 +188,7 @@ export const thirdProjectData = {
   technologies: [
     "React.js",
     "JavaScript",
-    // "HTML",
+    "HTML",
     "tailwindCSS",
     "SpringSecurity",
     "JWT",
