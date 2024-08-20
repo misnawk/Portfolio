@@ -181,7 +181,7 @@ export const SecondprojectData = {
 };
 
 export const thirdProjectData = {
-  title: "To Be Continue",
+  // title: "To Be Continue",
   subtitle: " 프로젝트 이름: Project",
   description: "프로젝트 설명",
   features: ["주요기능"],
