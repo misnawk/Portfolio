@@ -239,7 +239,7 @@ export const studyEntries: StudyProps[] = [
   },
   {
     id: 4,
-    title: "Web development",
+    title: "Web Development",
     description:
       "자바 스프링 응용SW개발자 양성과정 강의를 들으며 중요한것들을 기록해두었습니다.",
     imageUrl: "https://i.ibb.co/T8c5RHH/image.png",
