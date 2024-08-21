@@ -230,7 +230,7 @@ export const studyEntries: StudyProps[] = [
     url: "https://kms13011.tistory.com/category/%28%ED%95%99%29%20%28%EA%B3%B5%29%20%28%EB%94%94%29",
   },
   {
-    id: 31,
+    id: 3,
     title: "Web Development",
     description: "웹 개발 강의를 들으며 중요한것들을 기록해두었습니다.",
     imageUrl: "https://i.ibb.co/9scWNNX/image.png",
