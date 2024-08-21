@@ -235,7 +235,7 @@ export const studyEntries: StudyProps[] = [
     description: "웹 개발 강의를 들으며 중요한것들을 기록해두었습니다.",
     imageUrl: "https://i.ibb.co/9scWNNX/image.png",
     date: "2024-03-20",
-    url: "https://www.notion.so/WebDevelopment-85bd0260bbb743f1a383be813262f7b3",
+    // url: "https://www.notion.so/WebDevelopment-85bd0260bbb743f1a383be813262f7b3",
   },
   {
     id: 4,
