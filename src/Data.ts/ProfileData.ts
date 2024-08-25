@@ -169,7 +169,7 @@ export const SecondprojectData = {
     "MySQL",
     "GitHub",
     "Azure(CI/CD)",
-    // "ImgbbApi ",
+    "ImgbbApi ",
   ],
   images: [
     "bechef/메인화면(1).gif",
