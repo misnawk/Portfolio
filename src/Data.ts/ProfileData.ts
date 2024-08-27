@@ -143,7 +143,7 @@ export const FirstprojectData = {
 };
 
 export const SecondprojectData = {
-  title: "MY PROJECTS 2",
+  // title: "MY PROJECTS 2",
   subtitle: " 프로젝트 이름: Bechef",
   description:
     "사용자가 주변 밀키트 판매점의 위치와 재고를 실시간으로 확인가능한 웹사이트 입니다. 개인의 경험을 리뷰와 찜 기능으로 기록하고 공유 할 수 있습니다.",
