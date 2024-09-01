@@ -234,7 +234,7 @@ export const studyEntries: StudyProps[] = [
   {
     id: 3,
     title: "Web Development",
-    description: "Java/spring/DB",
+    description: "Java / spring / DB",
     imageUrl: "https://i.ibb.co/9scWNNX/image.png",
     date: "2024-03-20",
     url: "https://www.notion.so/WebDevelopment-85bd0260bbb743f1a383be813262f7b3",
@@ -242,7 +242,7 @@ export const studyEntries: StudyProps[] = [
   {
     id: 4,
     title: "Web Development",
-    description: "HTML/CSS/JS/DB/SpringBoot",
+    description: "HTML / CSS / JS / DB / SpringBoot",
     imageUrl: "https://i.ibb.co/T8c5RHH/image.png",
     date: "2024-03-20",
     url: "https://www.notion.so/HTML-CSS-js-React-31aee8cf29d946fc94fc9346ac52acb5",
@@ -258,7 +258,7 @@ export const studyEntries: StudyProps[] = [
   {
     id: 6,
     title: "WhiteClinic",
-    description: "Nest.js 와 Nest.js",
+    description: "Nest.js / Nest.js",
     imageUrl: "https://i.ibb.co/Rjrg5jX/image.png",
     date: "2024-03-20",
     url: "https://www.notion.so/c37e483e6fbb498db9504ab27b0ad7df",
