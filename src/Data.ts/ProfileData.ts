@@ -255,4 +255,12 @@ export const studyEntries: StudyProps[] = [
     date: "2024-03-20",
     url: "https://www.notion.so/3ef35154d555494a94dfa0e1b89a49b6",
   },
+  {
+    id: 6,
+    title: "WhiteClinic",
+    description: "Nest.js 와 Nest.js",
+    imageUrl: "https://i.ibb.co/Rjrg5jX/image.png",
+    date: "2024-03-20",
+    url: "https://www.notion.so/c37e483e6fbb498db9504ab27b0ad7df",
+  },
 ];
