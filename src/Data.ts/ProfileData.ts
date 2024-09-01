@@ -218,7 +218,7 @@ export const studyEntries: StudyProps[] = [
   {
     id: 1,
     title: "JAVA",
-    description: "자바에 대해서 공부한것들을 기록했습니다.",
+    description: "자바기초",
     imageUrl: "https://i.ibb.co/f2X38pn/image.png",
     date: "2024-03-15",
     url: "https://kms13011.tistory.com/category/%28%ED%95%99%29%20%28%EA%B3%B5%29%20%28%EC%9E%90%29",
@@ -226,7 +226,7 @@ export const studyEntries: StudyProps[] = [
   {
     id: 2,
     title: "DB",
-    description: "DataBase에 대해서 공부한것들을 기록했습니다.",
+    description: "DataBase",
     imageUrl: "https://i.ibb.co/P1K4mnn/image.png",
     date: "2024-03-20",
     url: "https://kms13011.tistory.com/category/%28%ED%95%99%29%20%28%EA%B3%B5%29%20%28%EB%94%94%29",
@@ -234,7 +234,7 @@ export const studyEntries: StudyProps[] = [
   {
     id: 3,
     title: "Web Development",
-    description: "웹 개발 강의를 들으며 중요한것들을 기록해두었습니다.",
+    description: "Java/spring/DB",
     imageUrl: "https://i.ibb.co/9scWNNX/image.png",
     date: "2024-03-20",
     url: "https://www.notion.so/WebDevelopment-85bd0260bbb743f1a383be813262f7b3",
@@ -242,10 +242,17 @@ export const studyEntries: StudyProps[] = [
   {
     id: 4,
     title: "Web Development",
-    description:
-      "자바 스프링 응용SW개발자 양성과정 강의를 들으며 중요한것들을 기록해두었습니다.",
+    description: "HTML/CSS/JS/DB/SpringBoot",
     imageUrl: "https://i.ibb.co/T8c5RHH/image.png",
     date: "2024-03-20",
     url: "https://www.notion.so/HTML-CSS-js-React-31aee8cf29d946fc94fc9346ac52acb5",
+  },
+  {
+    id: 5,
+    title: "Engineer Information Processing",
+    description: "정보처리기사",
+    imageUrl: "https://i.ibb.co/Jr26mBT/image.png",
+    date: "2024-03-20",
+    url: "https://www.notion.so/3ef35154d555494a94dfa0e1b89a49b6",
   },
 ];
