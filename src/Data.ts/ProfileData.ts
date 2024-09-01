@@ -218,7 +218,7 @@ export const studyEntries: StudyProps[] = [
   {
     id: 1,
     title: "JAVA",
-    description: "자바기초",
+    description: "JavaBasics",
     imageUrl: "https://i.ibb.co/f2X38pn/image.png",
     date: "2024-03-15",
     url: "https://kms13011.tistory.com/category/%28%ED%95%99%29%20%28%EA%B3%B5%29%20%28%EC%9E%90%29",
