@@ -233,14 +233,14 @@ export const studyEntries: StudyProps[] = [
     date: "2024-03-20",
     url: "https://kms13011.tistory.com/category/%28%ED%95%99%29%20%28%EA%B3%B5%29%20%28%EB%94%94%29",
   },
-  {
-    id: 3,
-    title: "Web Development",
-    description: "Java / spring / DB",
-    imageUrl: "https://i.ibb.co/9scWNNX/image.png",
-    date: "2024-03-20",
-    url: "https://www.notion.so/WebDevelopment-85bd0260bbb743f1a383be813262f7b3",
-  },
+  // {
+  //   id: 3,
+  //   title: "Web Development",
+  //   description: "Java / spring / DB",
+  //   imageUrl: "https://i.ibb.co/9scWNNX/image.png",
+  //   date: "2024-03-20",
+  //   url: "https://www.notion.so/WebDevelopment-85bd0260bbb743f1a383be813262f7b3",
+  // },
   {
     id: 4,
     title: "Web Development",
