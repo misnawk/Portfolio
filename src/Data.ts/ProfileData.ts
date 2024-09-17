@@ -174,7 +174,7 @@ export const SecondprojectData = {
     "ImgbbApi ",
   ],
   images: [
-    "bechef/메인화면(1).gif",
+    // "bechef/메인화면(1).gif",
     "bechef/리뷰와 찜리스트(2).gif",
     "bechef/회원탈퇴(4).gif",
     "bechef/로그인(5).gif",
