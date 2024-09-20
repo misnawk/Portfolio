@@ -28,7 +28,7 @@ export const ThirdProjectsPage = () => (
   <PageContainer>
     <ContentWrapper>
       <PageTitle>{thirdProjectData.title}</PageTitle>
-      {/* <ProjectCard {...thirdProjectData} /> */}
+      <ProjectCard {...thirdProjectData}  />
     </ContentWrapper>
   </PageContainer>
 );

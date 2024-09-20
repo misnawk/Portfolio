@@ -30,7 +30,7 @@ const FeatureList = styled.ul`
 interface ProjectInfoProps {
   title: string;
   description: string;
-  features: string[][];
+  features: string[];
   technologies: string[];
 }
 
@@ -45,9 +45,9 @@ export const ProjectInfo = ({
     <ProjectText>{description}</ProjectText>
     <ProjectSubtitle>주요 기능</ProjectSubtitle>
     <FeatureList>
-      {features.map((feature, index) => (
-        <FeatureItem key={index - 1}>
-          <ProjectText>{features[index]}</ProjectText>
+      {features.map((features, index) => (
+        <FeatureItem key={index}>
+          <ProjectText>{features}</ProjectText>
         </FeatureItem>
       ))}
     </FeatureList>

@@ -15,7 +15,7 @@ interface ProjectCardProps {
   title: string;
   subtitle: string;
   description: string;
-  features: string[][];
+  features: string[];
   technologies: string[];
   images: string[];
   githubLink: string;
