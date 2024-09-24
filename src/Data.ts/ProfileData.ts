@@ -216,7 +216,8 @@ export const thirdProjectData = {
     "https://i.ibb.co/dQ5cVkd/image.png",
   ],
   githubLink: "https://github.com/misnawk/whiteclinic",
-  demoLink: "",
+  demoLink:
+    "https://whiteclinic-nchwe4k0p-misnawks-projects.vercel.app/engineer/e_list",
 };
 
 export const studyEntries: StudyProps[] = [
