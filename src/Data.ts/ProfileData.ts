@@ -226,27 +226,31 @@ export const thirdProjectData = {
 
 export const studyEntries: StudyProps[] = [
   {
-    title: "Next.js",
-    description:
-      "화이트클리닉 프로젝트를 진행하기위해 Next.js 공식문서를 정리했습니다.",
-    imageUrl: "https://i.ibb.co/pz4RPFM/image.png",
-    date: "2024-09-10",
-    url: "https://jeweled-headphones-99c.notion.site/Next-js-99ac7e5e061b4690b2da1b30da762bd5?pvs=4",
-  },
-  {
     title: "Nest.js",
-    description: "Nest.js / Nest.js",
+    description:
+      "화이트클리닉 프로젝트 진행을 위해 Nest.js의 강의를 학습한것을 정리했습니다.",
     imageUrl: "https://i.ibb.co/55H81B9/image.png",
     date: "2024-09-20",
     url: "https://jeweled-headphones-99c.notion.site/Nest-js-ea8d1095b5d74624a901e3dce2f0b998?pvs=4",
   },
   {
+    title: "Next.js",
+    description:
+      "화이트클리닉 프로젝트 진행을 위해 Next.js의 공식 문서를 학습하였으며, 이에 따른 프로젝트의 Next.js 진행 사항을 정리했습니다.",
+    imageUrl: "https://i.ibb.co/pz4RPFM/image.png",
+    date: "2024-09-10",
+    url: "https://jeweled-headphones-99c.notion.site/Next-js-99ac7e5e061b4690b2da1b30da762bd5?pvs=4",
+  },
+
+  {
     title: "WhiteClinic",
-    description: "Nest.js / Nest.js",
+    description:
+      "Next.js와 Nest.js를 활용하여 프로젝트를 진행 중이며, 서비스 중인 업체의 사장님과 요구사항에 대해 협의하며 진행하고 있습니다.",
     imageUrl: "https://i.ibb.co/Rjrg5jX/image.png",
     date: "2024-08-12",
     url: "https://jeweled-headphones-99c.notion.site/c37e483e6fbb498db9504ab27b0ad7df?pvs=4",
   },
+
   {
     title: "Engineer Information Processing",
     description: "정보처리기사",
@@ -254,6 +258,7 @@ export const studyEntries: StudyProps[] = [
     date: "2024-08-17",
     url: "https://jeweled-headphones-99c.notion.site/3ef35154d555494a94dfa0e1b89a49b6?pvs=4",
   },
+
   {
     title: "Web Development",
     description: "HTML / CSS / JS / DB / SpringBoot",
