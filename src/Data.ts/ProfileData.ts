@@ -251,7 +251,7 @@ export const studyEntries: StudyProps[] = [
     description: "HTML / CSS / JS / DB / SpringBoot",
     imageUrl: "https://i.ibb.co/T8c5RHH/image.png",
     date: "2024-03-20",
-    url: "https://www.notion.so/HTML-CSS-js-React-31aee8cf29d946fc94fc9346ac52acb5",
+    url: "https://jeweled-headphones-99c.notion.site/HTML-CSS-js-React-31aee8cf29d946fc94fc9346ac52acb5?pvs=4",
   },
   {
     id: 5,
@@ -259,7 +259,7 @@ export const studyEntries: StudyProps[] = [
     description: "정보처리기사",
     imageUrl: "https://i.ibb.co/Jr26mBT/image.png",
     date: "2024-03-20",
-    url: "https://www.notion.so/3ef35154d555494a94dfa0e1b89a49b6",
+    url: "https://jeweled-headphones-99c.notion.site/3ef35154d555494a94dfa0e1b89a49b6?pvs=4",
   },
   {
     id: 6,
@@ -267,6 +267,6 @@ export const studyEntries: StudyProps[] = [
     description: "Nest.js / Nest.js",
     imageUrl: "https://i.ibb.co/Rjrg5jX/image.png",
     date: "2024-03-20",
-    url: "https://www.notion.so/c37e483e6fbb498db9504ab27b0ad7df",
+    url: "https://jeweled-headphones-99c.notion.site/c37e483e6fbb498db9504ab27b0ad7df?pvs=4",
   },
 ];
