@@ -56,7 +56,6 @@ export type SkillProps = {
 
 // 공부 흔적
 export type StudyProps = {
-  id: number;
   url: string;
   title: string;
   description: string;

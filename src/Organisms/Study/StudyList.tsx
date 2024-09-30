@@ -17,7 +17,7 @@ interface StudyListProps {
 export const StudyList: React.FC<StudyListProps> = ({ entries }) => (
   <ListContainer>
     {entries.map((entry) => (
-      <StudyCard key={entry.id} {...entry} />
+      <StudyCard key={entry.title} {...entry} />
     ))}
   </ListContainer>
 );

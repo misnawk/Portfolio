@@ -158,7 +158,6 @@ export const SecondprojectData = {
     "** 서버on: 평일 14:00 ~ 18:00 **",
     "** 접속 1분정도 걸립니다(에저 무료티어). **",
   ],
-
   technologies: [
     "React.js",
     "JavaScript",
@@ -227,7 +226,6 @@ export const thirdProjectData = {
 
 export const studyEntries: StudyProps[] = [
   {
-    id: 1,
     title: "JAVA",
     description: "JavaBasics",
     imageUrl: "https://i.ibb.co/f2X38pn/image.png",
@@ -235,23 +233,13 @@ export const studyEntries: StudyProps[] = [
     url: "https://kms13011.tistory.com/category/%28%ED%95%99%29%20%28%EA%B3%B5%29%20%28%EC%9E%90%29",
   },
   {
-    id: 2,
     title: "DB",
     description: "DataBase",
     imageUrl: "https://i.ibb.co/P1K4mnn/image.png",
     date: "2024-03-20",
     url: "https://kms13011.tistory.com/category/%28%ED%95%99%29%20%28%EA%B3%B5%29%20%28%EB%94%94%29",
   },
-  // {
-  //   id: 3,
-  //   title: "Web Development",
-  //   description: "Java / spring / DB",
-  //   imageUrl: "https://i.ibb.co/9scWNNX/image.png",
-  //   date: "2024-03-20",
-  //   url: "https://www.notion.so/WebDevelopment-85bd0260bbb743f1a383be813262f7b3",
-  // },
   {
-    id: 4,
     title: "Web Development",
     description: "HTML / CSS / JS / DB / SpringBoot",
     imageUrl: "https://i.ibb.co/T8c5RHH/image.png",
@@ -259,7 +247,6 @@ export const studyEntries: StudyProps[] = [
     url: "https://jeweled-headphones-99c.notion.site/HTML-CSS-js-React-31aee8cf29d946fc94fc9346ac52acb5?pvs=4",
   },
   {
-    id: 5,
     title: "Engineer Information Processing",
     description: "정보처리기사",
     imageUrl: "https://i.ibb.co/Jr26mBT/image.png",
@@ -267,7 +254,6 @@ export const studyEntries: StudyProps[] = [
     url: "https://jeweled-headphones-99c.notion.site/3ef35154d555494a94dfa0e1b89a49b6?pvs=4",
   },
   {
-    id: 6,
     title: "WhiteClinic",
     description: "Nest.js / Nest.js",
     imageUrl: "https://i.ibb.co/Rjrg5jX/image.png",
