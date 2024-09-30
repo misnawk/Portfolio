@@ -56,28 +56,10 @@ export const AboutMeData: AboutMeProps = {
   ],
   education: [
     {
-      period: "2018.03 - 2024.02",
-      title: "호원대학교 - 정보보안학과 졸업",
+      period: "2024.08.12 - 0930(진행중)",
+      title: " 화이트클리닉 관리자페이지 제작 - 외부프로젝트",
       description:
-        "키 관리(키 분배, 키 생성, 키 저장), 대칭 암호(AES, DES), 비대칭 암호(RSA, ECC), 해시 함수(SHA-256), 디지털 서명(DSA), 스케줄링 알고리즘(FIFO, SJF, SRTF, RR 등),Linux우분투, WireShark(패킷 분석 툴), Burp Suite(웹 애플리케이션 보안 테스트) 등을 학습했습니다. ",
-    },
-    {
-      period: "2023.12.27 - 2024.01.31",
-      title: "자바(JAVA) - 코리아IT아카데미 인천",
-      description:
-        "자바의 기본 문법과 이클립스를 활용한 자바 프로그래밍을 다루었습니다.",
-    },
-    {
-      period: "2024.01.10 - 2024.02.05",
-      title: "Mysql 사용한 DBMS - 코리아IT아카데미 인천",
-      description:
-        "MySQL Workbench를 활용하여 SQL의 기본적인 CRUD와 JOIN을 통해 데이터를 제어해보았습니다",
-    },
-    {
-      period: "2024.02.07 - 2024.07.16",
-      title: " 웹개발 - 코리아IT아카데미 인천",
-      description:
-        "프론트엔드에서는 HTML, CSS, JavaScript를 활용하고, 백엔드에서는 Spring, Spring Boot, Spring Tool Suite(STS)를 사용하여 MyBatis와 MySQL 데이터베이스를 효율적으로 제어하는 방법을 숙달했습니다.",
+        "화이트클리닉은 현재 서비스중인 홈페이지입니다. 화이트클리닉의 관리자페이지를 제작하게 되었습니다.",
     },
     {
       period: "2024.04.24 - 2024.08.07",
@@ -86,10 +68,28 @@ export const AboutMeData: AboutMeProps = {
         "프론트엔드에서는 React를 활용하고, 백엔드에서는 Spring Boot와 JSP 방식을 도입하여 MySQL 데이터베이스를 효율적으로 제어하며, 효율적인 데이터 처리와 사용자 인터페이스 구현을 경험했습니다.",
     },
     {
-      period: "2024.08.12 - 2024.09.12(미정)",
-      title: " 화이트클리닉 관리자페이지 제작 - 외부프로젝트",
+      period: "2024.02.07 - 2024.07.16",
+      title: " 웹개발 - 코리아IT아카데미 인천",
       description:
-        "화이트클리닉은 현재 서비스중인 홈페이지입니다. 화이트클리닉의 관리자페이지를 제작하게 되었습니다.",
+        "프론트엔드에서는 HTML, CSS, JavaScript를 활용하고, 백엔드에서는 Spring, Spring Boot, Spring Tool Suite(STS)를 사용하여 MyBatis와 MySQL 데이터베이스를 효율적으로 제어하는 방법을 숙달했습니다.",
+    },
+    {
+      period: "2024.01.10 - 2024.02.05",
+      title: "Mysql 사용한 DBMS - 코리아IT아카데미 인천",
+      description:
+        "MySQL Workbench를 활용하여 SQL의 기본적인 CRUD와 JOIN을 통해 데이터를 제어해보았습니다",
+    },
+    {
+      period: "2023.12.27 - 2024.01.31",
+      title: "자바(JAVA) - 코리아IT아카데미 인천",
+      description:
+        "자바의 기본 문법과 이클립스를 활용한 자바 프로그래밍을 다루었습니다.",
+    },
+    {
+      period: "2018.03 - 2024.02",
+      title: "호원대학교 - 정보보안학과 졸업",
+      description:
+        "키 관리(키 분배, 키 생성, 키 저장), 대칭 암호(AES, DES), 비대칭 암호(RSA, ECC), 해시 함수(SHA-256), 디지털 서명(DSA), 스케줄링 알고리즘(FIFO, SJF, SRTF, RR 등),Linux우분투, WireShark(패킷 분석 툴), Burp Suite(웹 애플리케이션 보안 테스트) 등을 학습했습니다.",
     },
   ],
 };
