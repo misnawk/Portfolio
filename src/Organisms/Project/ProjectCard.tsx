@@ -11,19 +11,18 @@ const ProjectButtonContainer = styled.div`
   gap: 10px;
 `;
 
-interface ProjectCardProps {
+type ProjectCardProps = {
   title: string;
   subtitle: string;
-  description: string;
+  description: string[];
   features: string[];
   technologies: string[];
   images: string[];
   githubLink: string;
   demoLink: string;
-}
+};
 
 export const ProjectCard = ({
-  title,
   subtitle,
   description,
   features,
@@ -34,7 +33,7 @@ export const ProjectCard = ({
 }: ProjectCardProps) => (
   <ProjectContainer>
     <div>
-      <ProjectImageSlider images={images} />{" "}
+      <ProjectImageSlider images={images} />
       <ProjectInfo
         title={subtitle}
         description={description}

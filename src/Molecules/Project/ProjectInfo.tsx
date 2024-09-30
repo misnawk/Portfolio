@@ -23,16 +23,16 @@ const FeatureItem = styled.li`
 
 const FeatureList = styled.ul`
   margin: 0;
-  padding-left: 20px;
+  padding-left: 50px;
   list-style: none;
 `;
 
-interface ProjectInfoProps {
+type ProjectInfoProps = {
   title: string;
-  description: string;
+  description: string[];
   features: string[];
   technologies: string[];
-}
+};
 
 export const ProjectInfo = ({
   title,
@@ -42,7 +42,15 @@ export const ProjectInfo = ({
 }: ProjectInfoProps) => (
   <InfoContainer>
     <ProjectSubtitle>{title}</ProjectSubtitle>
-    <ProjectText>{description}</ProjectText>
+
+    <FeatureList>
+      {description.map((description, index) => (
+        <FeatureItem key={index}>
+          <ProjectText>{description}</ProjectText>
+        </FeatureItem>
+      ))}
+    </FeatureList>
+
     <ProjectSubtitle>주요 기능</ProjectSubtitle>
     <FeatureList>
       {features.map((features, index) => (
@@ -51,6 +59,7 @@ export const ProjectInfo = ({
         </FeatureItem>
       ))}
     </FeatureList>
+
     <ProjectSubtitle>사용 기술</ProjectSubtitle>
     <TagContainer>
       {technologies.map((tech, index) => (

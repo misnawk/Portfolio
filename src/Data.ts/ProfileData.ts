@@ -56,10 +56,10 @@ export const AboutMeData: AboutMeProps = {
   ],
   education: [
     {
-      period: "2024.08.12 - 0930(진행중)",
+      period: "2024.08.12 - 2024.09.30(진행중)",
       title: " 화이트클리닉 관리자페이지 제작 - 외부프로젝트",
       description:
-        "화이트클리닉은 현재 서비스중인 홈페이지입니다. 화이트클리닉의 관리자페이지를 제작하게 되었습니다.",
+        "화이트클리닉은 현재 서비스중인 홈페이지입니다. 화이트클리닉의 관리자페이지를 제작하게 되었습니다.강의를 같이 들었던 엘리트멤버 3명이서 페이지 제작중입니다. Next와 Nest를 사용하여 제작중입니다.",
     },
     {
       period: "2024.04.24 - 2024.08.07",
@@ -97,8 +97,9 @@ export const AboutMeData: AboutMeProps = {
 export const FirstprojectData = {
   title: "MY PROJECTS 1",
   subtitle: "프로젝트 이름: Traveler",
-  description:
+  description: [
     "사용자는 여행 목적지와 날짜만 입력하면 해당 목적지의 숙박, 항공, 패키지, 티켓을 손쉽게 예약할 수 있습니다.",
+  ],
   features: [
     "1. 상품 예약 시 자동으로 캘린더에 저장되며 개인 용도로도 사용 가능합니다.",
 
@@ -143,8 +144,9 @@ export const FirstprojectData = {
 export const SecondprojectData = {
   title: "MY PROJECTS 2",
   subtitle: " 프로젝트 이름: Bechef",
-  description:
+  description: [
     "사용자가 주변 밀키트 판매점의 위치와 재고를 실시간으로 확인가능한 웹사이트 입니다. 개인의 경험을 리뷰와 찜 기능으로 기록하고 공유 할 수 있습니다.",
+  ],
   features: [
     "1. 서비스 접속 즉시 현재 위치 기반 검색창과 지도가 나타납니다.(kakaoMaps API사용)",
 
@@ -183,12 +185,13 @@ export const SecondprojectData = {
 
 export const thirdProjectData = {
   title: "현재 진행중인 프로젝트",
-  subtitle: " 프로젝트 이름: 화이트클리닉",
-  description:
-    "현재 서비스중인 화이트클리닉업체의 관리자페이지를 제작중입니다.(외주)",
+  subtitle: "프로젝트 이름: 화이트클리닉",
+  description: [
+    "강의를 해주시던 강사님께서 화이트클리닉업체 사장님을 소개시켜주시며 프로젝트가 시작되었습니다. ",
+    "제가 맡은 파트는 기사님 관리-리스트보기와 등록하기 수정하기입니다.",
+  ],
+
   features: [
-    "리스트보기: 기사님 성함의 체크박스를 누르면 라벨 값을 서버로 전송하며 DB에서 해당 이름에 맞는 정보값을 돌려줍니다.",
-    "등록하기 :  새로 들어오신 기사님의 정보를 DB에 저장합니다.",
     "추후 업데이트중....",
     "** 서버on: 평일 14:00 ~ 18:00 **",
     "** 접속 1분정도 걸립니다. **",
