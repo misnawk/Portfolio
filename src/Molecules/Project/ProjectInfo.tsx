@@ -32,6 +32,7 @@ type ProjectInfoProps = {
   description: string[];
   features: string[];
   technologies: string[];
+  learned: string[][];
 };
 
 export const ProjectInfo = ({
@@ -39,6 +40,7 @@ export const ProjectInfo = ({
   description,
   features,
   technologies,
+  learned,
 }: ProjectInfoProps) => (
   <InfoContainer>
     <ProjectSubtitle>{title}</ProjectSubtitle>
@@ -56,6 +58,15 @@ export const ProjectInfo = ({
       {features.map((features, index) => (
         <FeatureItem key={index}>
           <ProjectText>{features}</ProjectText>
+        </FeatureItem>
+      ))}
+    </FeatureList>
+
+    <ProjectSubtitle>배운점</ProjectSubtitle>
+    <FeatureList>
+      {learned.map((learned, index) => (
+        <FeatureItem key={index}>
+          <ProjectText>{learned}</ProjectText>
         </FeatureItem>
       ))}
     </FeatureList>

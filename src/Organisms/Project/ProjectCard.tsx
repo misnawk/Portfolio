@@ -16,6 +16,7 @@ type ProjectCardProps = {
   subtitle: string;
   description: string[];
   features: string[];
+  learned: string[][];
   technologies: string[];
   images: string[];
   githubLink: string;
@@ -30,6 +31,7 @@ export const ProjectCard = ({
   images,
   githubLink,
   demoLink,
+  learned,
 }: ProjectCardProps) => (
   <ProjectContainer>
     <div>
@@ -38,6 +40,7 @@ export const ProjectCard = ({
         title={subtitle}
         description={description}
         features={features}
+        learned={learned}
         technologies={technologies}
       />
       <ProjectButtonContainer>

@@ -1,3 +1,4 @@
+import { features } from "process";
 import {
   AboutMeProps,
   ProfileImgProps,
@@ -117,6 +118,23 @@ export const FirstprojectData = {
     "** 서버on: 평일 13:00 ~ 18:00 **",
     "** 접속 1분정도 걸립니다(에저 무료티어). **",
   ],
+  learned: [
+    [
+      "1. Thymeleaf를 사용한 서버 사이드 렌더링으로 동적인 데이터 바인딩과 템플릿 기반의 HTML 반복 처리를 학습했습니다.",
+    ],
+    [
+      "2. AJAX와 Fetch 와 JavaScript를 통한 비동기 데이터 통신 및 DOM 조작 기술을 익혔습니다.",
+    ],
+    [
+      "3. 세션 관리를 통해 사용자 인증과 상태 유지를 처리하는 방법을 배웠습니다.",
+    ],
+    [
+      "4. 데이터베이스 정규화를 통해 데이터의 중복을 제거하고 효율적인 데이터 구조를 설계하는 방법을 배웠습니다.",
+    ],
+    [
+      "5. Azure 클라우드 플랫폼과 CI/CD 파이프라인을 활용하여 지속적인 통합과 배포를 구현하는 방법을 배웠습니다.",
+    ],
+  ],
   technologies: [
     "HTML",
     "CSS",
@@ -158,6 +176,7 @@ export const SecondprojectData = {
     "** 서버on: 평일 13:00 ~ 18:00 **",
     "** 접속 1분정도 걸립니다(에저 무료티어). **",
   ],
+  learned: [],
   technologies: [
     "React.js",
     "JavaScript",
@@ -197,6 +216,7 @@ export const thirdProjectData = {
     "** 서버on: 평일 13:00 ~ 18:00 **",
     "** 접속 1분정도 걸립니다(에저 무료티어). **",
   ],
+  learned: [],
   technologies: [
     "React.js",
     "Next.js",
