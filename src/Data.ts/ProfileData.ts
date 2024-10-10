@@ -63,13 +63,13 @@ export const AboutMeData: AboutMeProps = {
         "화이트클리닉은 현재 서비스중인 홈페이지입니다. 화이트클리닉의 관리자페이지를 제작하게 되었습니다.강의를 같이 들었던 엘리트멤버 3명이서 페이지 제작중입니다. Next와 Nest를 사용하여 제작중입니다.",
     },
     {
-      period: "2024.04.24 - 2024.08.07",
+      period: "2024.04.24 - 2024.08.07(밀키트 프로젝트)",
       title: " 자바 스프링 응용SW개발자 양성과정 - 코리아IT아카데미 인천",
       description:
         "프론트엔드에서는 React를 활용하고, 백엔드에서는 Spring Boot와 JSP 방식을 도입하여 MySQL 데이터베이스를 효율적으로 제어하며, 효율적인 데이터 처리와 사용자 인터페이스 구현을 경험했습니다.",
     },
     {
-      period: "2024.02.07 - 2024.07.16",
+      period: "2024.02.07 - 2024.07.16(여행 프로젝트)",
       title: " 웹개발 - 코리아IT아카데미 인천",
       description:
         "프론트엔드에서는 HTML, CSS, JavaScript를 활용하고, 백엔드에서는 Spring, Spring Boot, Spring Tool Suite(STS)를 사용하여 MyBatis와 MySQL 데이터베이스를 효율적으로 제어하는 방법을 숙달했습니다.",

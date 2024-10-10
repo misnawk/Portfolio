@@ -39,7 +39,7 @@ const AboutMePage = () => {
         <AboutMeSection {...AboutMeData} />
       </Section>
       <Section>
-        <SectionTitle>Education</SectionTitle>
+        <SectionTitle>progress</SectionTitle>
         <EducationSection education={AboutMeData.education} />
       </Section>
     </PageContainer>
