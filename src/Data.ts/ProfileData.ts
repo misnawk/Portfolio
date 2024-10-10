@@ -234,7 +234,7 @@ export const thirdProjectData = {
   ],
   learned: [
     [
-      "1. Nest와 TypeScript를 활용하여 프론트엔드와 백엔드 간의 효과적인 데이터 통신을 구현하였습니다. ",
+      "1. Nest와 TypeScript를 활용하여 프론트엔드와 백엔드 간의 효과적인 데이터 통신을 구현하였습니다 ",
     ],
     [" 2. 컴포넌트를 아토믹 구조로 설계하는 방법을 익혔습니다. "],
     [
