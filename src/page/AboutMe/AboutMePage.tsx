@@ -35,11 +35,11 @@ const AboutMePage = () => {
   return (
     <PageContainer>
       <Section>
-        <SectionTitle>About Me</SectionTitle>
+        <SectionTitle>나의 스킬</SectionTitle>
         <AboutMeSection {...AboutMeData} />
       </Section>
       <Section>
-        <SectionTitle>progress</SectionTitle>
+        <SectionTitle>진행사항</SectionTitle>
         <EducationSection education={AboutMeData.education} />
       </Section>
     </PageContainer>
