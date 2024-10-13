@@ -30,7 +30,7 @@ const Title = styled.h3`
 
 const Description = styled.p`
   font-size: 16px;
-  /* color: #555; */
+  color: #555;
   line-height: 1.5;
 `;
 
