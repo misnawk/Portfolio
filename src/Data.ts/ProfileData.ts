@@ -234,6 +234,7 @@ export const thirdProjectData = {
     "** 접속 1분정도 걸립니다(에저 무료티어). **",
   ],
   learned: [
+    ["---프론트---"],
     [
       "1. Nest와 TypeScript를 활용하여 프론트엔드와 백엔드 간의 효과적인 데이터 통신을 구현하였습니다. ",
     ],
@@ -255,6 +256,16 @@ export const thirdProjectData = {
     ],
     [" 8. MUI 라이브러리를 효율적으로 활용하는 방법을 배우게 되었습니다."],
     [" 9. Zustand를 사용하여 전역에서 상태 관리를 수행할 수 있었습니다. "],
+    ["---백엔드---"],
+    [
+      "10. NestJS 프레임워크를 사용하여 백엔드를 구축했으며, 이는 TypeScript를 기반으로 합니다.",
+    ],
+    [
+      "11. JWT(JSON Web Token)를 사용하여 사용자 인증을 구현했습니다. AuthGuard에서 토큰을 검증합니다.",
+    ],
+    [
+      "12. 역할의 정보는 ADMIN 과 USER로 구분하였으며 매출 관련된 CRUD는 ADMIN만이 가능하도록 로직구현하고있습니다.",
+    ],
   ],
   technologies: [
     "React.js",
