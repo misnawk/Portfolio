@@ -219,7 +219,7 @@ export const SecondprojectData = {
 };
 
 export const thirdProjectData = {
-  title: "현재 진행중인 프로젝트",
+  title: "현재 진행중인 프로젝트(목표 마감일 10-31)",
   subtitle: "프로젝트 이름: 화이트클리닉",
   description: [
     "강의를 해주시던 강사님께서 화이트클리닉업체 사장님을 소개시켜주시며 프로젝트가 시작되었습니다. ",
