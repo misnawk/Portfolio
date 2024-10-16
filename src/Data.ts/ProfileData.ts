@@ -298,7 +298,7 @@ export const studyEntries: StudyProps[] = [
   {
     title: "Nest.js",
     description:
-      "화이트클리닉 프로젝트 진행을 위해 Nest.js의 강의를 학습한것을 정리했습니다..",
+      "화이트클리닉 프로젝트 진행을 위해 Nest.js의 강의를 학습한것을 정리했습니다.",
     imageUrl: "https://i.ibb.co/55H81B9/image.png",
     date: "2024-09-20",
     url: "https://jeweled-headphones-99c.notion.site/Nest-js-ea8d1095b5d74624a901e3dce2f0b998?pvs=4",
