@@ -220,7 +220,7 @@ export const SecondprojectData = {
 
 export const thirdProjectData = {
   title: "현재 진행중인 프로젝트(목표 마감일 10-31)",
-  subtitle: "프로젝트 이름: 화이트클리닉",
+  subtitle: "프로젝트 이름: 화이트클리닉(열심히 제작중입니다.)",
   description: [
     "강의를 해주시던 강사님께서 화이트클리닉업체 사장님을 소개시켜주시며 프로젝트가 시작되었습니다. ",
     "",
@@ -286,8 +286,9 @@ export const thirdProjectData = {
     "https://i.ibb.co/104gTp2/image.png",
     "https://i.ibb.co/drRVsL3/image.png",
     "https://i.ibb.co/dBsX2zK/image.png",
-    "https://i.ibb.co/9N1R9PP/image.png",
-    "https://i.ibb.co/dQ5cVkd/image.png",
+    "고객정보.png",
+    "스케줄.png",
+    "예약하기.png",
   ],
   githubLink: "https://github.com/misnawk/whiteclinic",
   demoLink:
