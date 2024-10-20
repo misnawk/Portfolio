@@ -291,8 +291,10 @@ export const thirdProjectData = {
     "예약하기.png",
   ],
   githubLink: "https://github.com/misnawk/whiteclinic",
-  demoLink:
-    "https://whiteclinic-nchwe4k0p-misnawks-projects.vercel.app/engineer/e_list",
+
+  demoLink: "https://whiteclinic-front.vercel.app/",
+  demoLinks:
+    "https://public-whiteclinic-front-mcjmg7rcl-misnawks-projects.vercel.app/",
 };
 
 export const studyEntries: StudyProps[] = [

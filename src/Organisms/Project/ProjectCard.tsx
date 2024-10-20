@@ -20,6 +20,7 @@ type ProjectCardProps = {
   technologies: string[];
   images: string[];
   githubLink: string;
+  demoLinks?: string;
   demoLink: string;
 };
 
@@ -31,6 +32,7 @@ export const ProjectCard = ({
   images,
   githubLink,
   demoLink,
+  demoLinks,
   learned,
 }: ProjectCardProps) => (
   <ProjectContainer>
@@ -56,8 +58,18 @@ export const ProjectCard = ({
           target="_blank"
           rel="noopener noreferrer"
         >
-          Demo
+          버전1
         </ProjectButton>
+
+        {demoLinks && (
+          <ProjectButton
+            href={demoLink}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            버전2
+          </ProjectButton>
+        )}
       </ProjectButtonContainer>
     </div>
   </ProjectContainer>
