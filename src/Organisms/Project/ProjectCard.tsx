@@ -63,7 +63,7 @@ export const ProjectCard = ({
 
         {demoLinks && (
           <ProjectButton
-            href={demoLink}
+            href={demoLinks}
             target="_blank"
             rel="noopener noreferrer"
           >
